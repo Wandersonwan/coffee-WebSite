@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    background-color: #000;
+}
+
+.background{
+    background-image: url(../Image/home-img\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+    
+}
+.logo img{
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    margin-left: 200px;   
+}
+ul li a{
+    color: #fff;
+    transition: 0.3s;
+    display: flex;
+    margin: 20px;
+}
+.c-icon{
+    margin-right: 5rem;
+
+}
+.icone ion-icon{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+ul li a:hover{
+
+    text-transform: capitalize;
+    color: rgb(101, 110, 3);
+    border-bottom: 1px solid;
+}
+hr{
+    border-bottom: 0.1px solid;
+    color: rgb(54, 46, 46);
+    margin-top: 15px;
+}
+.c-title{
+    margin-left: 5rem;
+    margin-top: 10rem;   
+}
+.c-title .titulo{
+    color: #fff;
+    font-size: 3rem;
+}
+.c-title .paragrafo{
+    color: rgb(231, 208, 208);
+    width: 455px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.c-title .btn{
+    margin-top: 2rem;
+    background-color: #d3ad7f;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.c-title .btn:hover{
+    transform: scale(1.1);
+
+}
+
