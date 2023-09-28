@@ -1,0 +1,37 @@
+@media (max-width: 911px) {
+    .header .menu-cafe {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .sobre-nos {
+        flex-direction: column;
+    }
+
+
+    .section-1 button {
+        display: none;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+    .header input:checked~ul {
+        display: block;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 8px;
+        right: 0px;
+        z-index: 1;
+    }
+    .c-icon{
+        margin-right: 80px;
+        margin-top: 30px;
+    }
+
+
+}
