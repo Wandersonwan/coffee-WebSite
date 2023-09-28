@@ -38,3 +38,8 @@
 
 
 }
+@media (max-width: 426px) {
+    .c-title button{
+        display: none;
+    }
+}
