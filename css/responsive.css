@@ -1,4 +1,8 @@
 @media (max-width: 911px) {
+    .background {
+        height: auto;
+    }
+
     .header .menu-cafe {
         display: block;
         cursor: pointer;
@@ -17,11 +21,12 @@
     .header nav ul {
         display: none;
     }
-        .header nav ul li a{
-            padding: 15px;
-        }
 
-    .header input:checked ~ ul {
+    .header nav ul li a {
+        padding: 15px;
+    }
+
+    .header input:checked~ul {
         display: block;
     }
 
@@ -31,7 +36,8 @@
         right: 0px;
         z-index: 1;
     }
-    .c-icon{
+
+    .c-icon {
         margin-right: 80px;
         margin-top: 30px;
     }
