@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-body{
+body {
     background-color: #000;
 }
 
-.background{
+.background {
     background-image: url(../Image/home-img\ \(1\).jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -12,27 +12,29 @@ body{
     width: 100%;
     height: 100vh;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     margin: 15px 20px 15px 50px;
     align-items: center;
-    position: relative;
 }
 
-.header .menu-cafe{
+.header .menu-cafe {
     display: none;
     width: 60px;
     height: 60px;
     align-self: flex-end;
 }
+
 .header nav label {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
-.header .cafeteiria{
+
+.header .cafeteiria {
     background-color: #fff;
     position: relative;
     display: block;
@@ -43,8 +45,9 @@ body{
     transition: 0.5s ease-in-out;
 
 }
+
 .header .cafeteiria:before,
-.header .cafeteiria:after{
+.header .cafeteiria:after {
     background-color: #fff;
     content: "";
     display: block;
@@ -54,80 +57,94 @@ body{
     transition: 0.2s ease-in-out;
 
 }
-.header .cafeteiria:before{
+
+.header .cafeteiria:before {
     top: -10px;
 }
-.header .cafeteiria:after{
+
+.header .cafeteiria:after {
     bottom: -10px;
 }
-.header input{
+
+.header input {
     display: none;
 }
-.header input:checked ~ label .cafeteiria{
+
+.header input:checked~label .cafeteiria {
     transform: rotate(45deg);
 }
-.header input:checked~label .cafeteiria:before{
+
+.header input:checked~label .cafeteiria:before {
     transform: rotate(90deg);
     top: 0;
 }
-.header input:checked~label .cafeteiria:after{
+
+.header input:checked~label .cafeteiria:after {
     transform: rotate(90deg);
     bottom: 0;
 }
 
-.logo img{
+.logo img {
     width: 75px;
     height: auto;
     margin-left: 2rem;
     cursor: pointer;
 }
-ul{
+
+ul {
     display: flex;
-    margin-left: 150px;
-    gap: 50px;   
+    gap: 40px;
+    margin-left: 160px;
 }
-ul li a{
+
+ul li a {
     color: #fff;
-    transition: 0.3s;
-    display: flex;
-    
+    transition: 0.4s;
 }
-.c-icon{
+
+.c-icon {
     margin-right: 1rem;
 
 }
-.icone ion-icon{
+
+.icone ion-icon {
     color: #fff;
     font-size: 2rem;
     cursor: pointer;
 }
-ul li a:hover{
+
+ul li a:hover {
     transform: scale(1.1);
     color: rgb(101, 110, 3);
     border-bottom: 1px solid;
 }
-hr{
+
+hr {
     border-bottom: 0.1px solid;
     color: rgb(54, 46, 46);
-    margin-top: 15px;
+    margin-top: 10px;
 }
-.c-title{
+
+.c-title {
     margin-left: 5rem;
-    margin-top: 10rem;  
-    
+    margin-top: 8rem;
+
 }
-.c-title .titulo{
+
+.c-title .titulo {
     color: #fff;
     font-size: 3rem;
 }
-.c-title .paragrafo{
+
+.c-title .paragrafo {
     color: rgb(231, 208, 208);
     width: 60%;
     line-height: 1.5rem;
     font-size: 1.2rem;
     font-weight: 100;
 }
-.c-title .btn{
+
+.c-title .btn {
     margin-top: 2rem;
     background-color: #d3ad7f;
     color: #fff;
@@ -137,23 +154,28 @@ hr{
     transition: 0.3s ease-in-out;
     border-radius: 10px;
 }
-.c-title .btn:hover{
+
+.c-title .btn:hover {
     transform: scale(1.1);
 
 }
-.section-1{
+
+.section-1 {
     padding: 5rem;
 }
-.section-1 span{
+
+.section-1 span {
     color: #fff;
 }
-.section-1 h1{
+
+.section-1 h1 {
     color: #d3ad7f;
     text-align: center;
-        font-size: 2.5rem;
-    
+    font-size: 2.5rem;
+
 }
-.sobre-nos{
+
+.sobre-nos {
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -162,49 +184,58 @@ hr{
     width: 100%;
     margin-top: 2rem;
 }
-.sobre-nos img{
+
+.sobre-nos img {
     border-radius: 10px 0 0 10px;
     max-width: 100%;
     width: 80rem;
     height: auto;
-    
+
 }
-.sobre-nos-title{
-    margin-left:1.3rem ;
+
+.sobre-nos-title {
+    margin-left: 1.3rem;
 }
-.sobre-nos-title h2{
+
+.sobre-nos-title h2 {
     color: #fff;
     font-size: 2rem;
 }
-.sobre-nos-title p{
+
+.sobre-nos-title p {
     line-height: 1.5rem;
     padding-top: 1rem;
     font-size: 1rem;
     color: #ccc;
 }
-.sobre-nos-title button{
+
+.sobre-nos-title button {
     margin-top: 2rem;
-        background-color: #d3ad7f;
-        color: #fff;
-        font-size: 1.2rem;
-        padding: 8px 15px;
-        cursor: pointer;
-        transition: 0.3s ease-in-out;
-        border-radius: 10px;
-    
+    background-color: #d3ad7f;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+
 }
-.sobre-nos-title button:hover{
+
+.sobre-nos-title button:hover {
     transform: scale(1.1);
 }
+
 .section-2 h1 {
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
 }
-.section-2 span{
-    color:#d3ad7f;
+
+.section-2 span {
+    color: #d3ad7f;
 }
-.container-card-1{
+
+.container-card-1 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -212,7 +243,8 @@ hr{
     margin-bottom: 1rem;
 
 }
-.container-card-2{
+
+.container-card-2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -220,35 +252,41 @@ hr{
     margin-bottom: 1rem;
 
 }
-.card-img{
+
+.card-img {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, .3);
     padding: 3rem;
     text-align: center;
     max-width: 100%;
     width: 25rem;
-    height: 23rem;   
-   transition: 0.3s ease-in-out;
+    height: 23rem;
+    transition: 0.3s ease-in-out;
 }
-.card-img:hover{
+
+.card-img:hover {
     transform: scale(0.9);
     background-color: #0d0d0d;
 }
-.card-img img{
-        width: 120px;
-        height: auto;       
+
+.card-img img {
+    width: 120px;
+    height: auto;
 }
-.card-img h3{
+
+.card-img h3 {
     font-size: 1.5rem;
     color: #fff;
-    margin: 20px auto ;
-    
+    margin: 20px auto;
+
 }
-.card-img p{
+
+.card-img p {
     color: #ccc;
     font-size: 1.8rem;
 }
-.card-img button{
+
+.card-img button {
     margin-top: 20px;
     background-color: #d3ad7f;
     color: #fff;
@@ -258,187 +296,216 @@ hr{
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-.card-img button:hover{
+
+.card-img button:hover {
     transform: scale(1.1);
 }
-.card-img span{
+
+.card-img span {
     color: #fff;
     font-weight: lighter;
     text-decoration: line-through;
     font-size: 1rem;
 }
-.container-produtos{
-display: flex;
+
+.container-produtos {
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
-.card-produtos{
+.card-produtos {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, .3);
-        padding: 2rem;
-        text-align: center;
-        max-width: 100%;
-        width: 25rem;
-        height: 26rem;
-        transition: 0.4s ease-in-out;
+    padding: 2rem;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 26rem;
+    transition: 0.4s ease-in-out;
 }
+
 .card-produtos:hover {
     transform: scale(0.9);
     background-color: #0d0d0d;
 }
-.card-produtos img{
+
+.card-produtos img {
     margin-top: 10px;
     width: 120px;
-     height: auto;
-    
+    height: auto;
+
 }
+
 .section-3 h1 {
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
     margin: 4rem auto;
 }
-.section-3 span{
+
+.section-3 span {
     color: #d3ad7f;
 }
-.card-produtos h3{
+
+.card-produtos h3 {
     font-size: 1rem;
     color: #fff;
-     margin: 20px auto;
+    margin: 20px auto;
 }
-.card-produtos p{
+
+.card-produtos p {
     color: #ccc;
     font-size: 1.8rem;
 }
-.card-produtos span{
-    
+
+.card-produtos span {
+
     font-size: 1rem;
     font-weight: lighter;
     text-decoration: line-through;
 }
-.icon-produtos{
+
+.icon-produtos {
     padding: 10px;
 }
-.icon-produtos a{
+
+.icon-produtos a {
 
     color: #fff;
     font-size: 1.5rem;
     border: 1px solid #ccc;
     padding: 0.8px;
-    
+
 }
-.icon-produtos a:hover{
+
+.icon-produtos a:hover {
     background-color: #d3ad7f;
 }
-div.star a{
+
+div.star a {
     color: #d3ad7f;
     font-size: 1rem;
 }
-.section-4 h1{
+
+.section-4 h1 {
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
     margin: 4rem auto;
 }
 
-.section-4 span{
+.section-4 span {
     color: #d3ad7f;
 }
 
-.section-analise{
+.section-analise {
     display: flex;
     justify-content: space-evenly;
     margin-top: 3rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
 }
-    
-       
-.card-analise{
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, .3);
-        padding: 2rem;
-        text-align: center;
-        max-width: 100%;
-        width: 26rem;
-        height: 27rem;
-        transition: 0.4s ease-in-out;
+
+
+.card-analise {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 2rem;
+    text-align: center;
+    max-width: 100%;
+    width: 26rem;
+    height: 27rem;
+    transition: 0.4s ease-in-out;
 }
-.card-analise:hover{
+
+.card-analise:hover {
     transform: scale(0.9);
     background-color: #0d0d0d;
 
 }
-.card-analise p{
+
+.card-analise p {
     color: #fff;
     margin: 20px;
     line-height: 22px;
 }
-.card-analise img{
+
+.card-analise img {
     width: 70px;
     border-radius: 10px;
 }
-.card-analise h3{
+
+.card-analise h3 {
     color: #fff;
     margin-top: 20px;
 }
-.section-5{
+
+.section-5 {
     padding: 0 5rem 0 5rem;
 }
-.section-5 h1{
-        text-align: center;
-        color: #fff;
-        font-size: 2.5rem;
-        margin: 4rem auto;
-        
+
+.section-5 h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 4rem auto;
+
 }
-.card-contatos{
+
+.card-contatos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    
+
 
 }
-form{
-    background-color:#13131a;
+
+form {
+    background-color: #13131a;
     padding: 2rem;
     width: 40rem;
     height: auto;
 }
-form h3{
+
+form h3 {
     text-align: center;
     color: #fff;
     font-size: 1.5rem;
 }
-.section-5 .card-contatos .mapa{
+
+.section-5 .card-contatos .mapa {
 
     flex: 1rem;
-    
+
 }
-.input-form input{
+
+.input-form input {
     width: 100%;
     padding: 1rem;
     background-color: black;
-    
+
 }
+
 .input-form {
     display: flex;
     align-items: center;
     padding: 0 0 0 1rem;
     margin-top: 1rem;
     background-color: black;
-    
+
 }
-.input-form span{
+
+.input-form span {
     color: #fff;
     font-size: 1.5rem;
 }
-form button{
+
+form button {
     margin-top: 2rem;
     background-color: #d3ad7f;
     font-size: 1.2rem;
@@ -450,6 +517,7 @@ form button{
     transition: 0.3s ease-in-out;
     border-radius: 10px;
 }
-form button:hover{
+
+form button:hover {
     transform: scale(1.1);
 }
