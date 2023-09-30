@@ -6,4 +6,5 @@
     font-family: 'Roboto', sans-serif;
     border: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
